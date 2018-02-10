@@ -1,0 +1,24 @@
+{
+  "name": "packagetesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescriptpackage": "file:../typescriptPackage"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.39",
+    "@babel/preset-es2015": "^7.0.0-beta.39",
+    "@types/node": "^9.4.4",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "ts-loader": "^3.5.0",
+    "typescript": "^2.7.1",
+    "webpack": "^3.10.0"
+  }
+}
